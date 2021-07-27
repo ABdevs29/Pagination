@@ -1,0 +1,42 @@
+/* Om Namah Shivaya */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background: lightblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.inputDiv {
+    color: darkorchid;
+}
+
+.userInfo {
+    margin: 2% 20%;
+    padding: 0.75em 0em .75em 0em;
+    border: 1px darkorchid solid;
+    border-radius: 4px;
+    background-image: linear-gradient(to right top, #52a5c2, #46a4bf, #38a2bc, #27a1b9, #0a9fb5);
+}
+
+p {
+    font-weight: bold;
+}
+
+.userInfo:hover {
+    background-image: linear-gradient(to left bottom, #b852c2, #7975de, #1c8ae0, #0098cf, #0a9fb5);
+}
+
+.btn {
+    background: lightseagreen;
+    /* width: 2%; */
+    /* margin-left: .5em; */
+    margin-bottom: 2em;
+    border-radius: 7px;
+}
+
+.btn:hover {
+    background: darkorchid;
+}
